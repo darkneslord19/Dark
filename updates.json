@@ -2,10 +2,10 @@
   "themes": {
     "komur": false,
     "mor": false,
-    "mavi": true,
+    "mavi": false,
     "kirmizi": false,
     "yesil": false,
-    "gunbatimi": false,
+    "gunbatimi": true,
     "altin": false,
     "okyanus": false,
     "gul": false,
