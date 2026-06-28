@@ -3,7 +3,7 @@
     "komur": true,
     "mor": false,
     "mavi": false,
-    "kirmizi": false,
+    "kirmizi": true,
     "yesil": false,
     "gunbatimi": false,
     "altin": false,
@@ -22,8 +22,18 @@
     "scroll": true
   },
   "users": [
-    { "username": "admin", "password": "1234", "banned": false },
-    { "username": "ali", "password": "abcd", "banned": false, "expires": "2026-12-31" }
+    {
+      "username": "admin",
+      "password": "1234",
+      "banned": false,
+      "expires": "2026-12-31"
+    },
+    {
+      "username": "ali",
+      "password": "abcd",
+      "banned": false,
+      "expires": "2026-12-31"
+    }
   ],
   "banned": [],
   "update": {
