@@ -19,7 +19,7 @@
   "announcement": {
     "active": true,
     "text": "Hoş geldiniz! Yeni güncellemeler yakında geliyor.",
-    "scroll": true
+    "scroll": false
   },
   "users": [
     {
