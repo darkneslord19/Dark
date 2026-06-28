@@ -2,8 +2,8 @@
   "themes": {
     "komur": false,
     "mor": false,
-    "mavi": false,
-    "kirmizi": true,
+    "mavi": true,
+    "kirmizi": false,
     "yesil": false,
     "gunbatimi": false,
     "altin": false,
@@ -17,7 +17,7 @@
     "message": "Sistem şu anda bakımda.\nLütfen daha sonra tekrar deneyin."
   },
   "announcement": {
-    "active": false,
+    "active": true,
     "text": "Hoş geldiniz! Yeni güncellemeler yakında geliyor.",
     "scroll": true
   },
