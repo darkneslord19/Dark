@@ -1,0 +1,31 @@
+{
+  "name": "DARKNES LORD",
+  "handle": "@darknes_lord",
+  "bio": "Uygulamanın tüm potansiyelini açığa çıkar! Reklamsız akış, kişiselleştirilebilir özel temalar ve imza koruması ile verilerini güvence altına al. Reklamlardan kurtul, özel temalarla arayüzünü kişiselleştir ve projelerini imza korumasıyla (signature protection) güvenle kilitle.",
+  "developer": "DARKNES LORD",
+  "developer_label": "Developer",
+  "button_text": "Telegram",
+  "button_url": "https://t.me/darknes_lord",
+  "colors": {
+    "card_bg": "#1a0a2a",
+    "title": "#f5eef8",
+    "handle": "#a569bd",
+    "bio": "#d2b4de",
+    "dev_name": "#f5eef8",
+    "dev_label": "#a569bd",
+    "btn_bg": "#6c3483",
+    "btn_text": "#f5eef8",
+    "btn_hover": "#8e44ad",
+    "divider": "#4a235a",
+    "grad1": "#6c3483",
+    "grad2": "#4a235a",
+    "avatar_bg": "#6c3483"
+  },
+  "header": {
+    "mode": "overlay",
+    "image": "",
+    "overlay_image": "https://raw.githubusercontent.com/darkneslord19/darkneslord/main/uploads/1782603977275_1000131362.jpg",
+    "overlay_opacity": 0.1
+  },
+  "avatar": "https://raw.githubusercontent.com/darkneslord19/darkneslord/main/uploads/1776031253819_1000103679.jpg"
+}
