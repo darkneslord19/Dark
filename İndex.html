@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>M3U Yönlendirici</title>
+</head>
+<body>
+    <h1>M3U Link Yönlendirici</h1>
+    <p>Yükleniyor...</p>
+    
+    <script>
+        // Adres çubuğundaki /kanal1, /kanal2 gibi kısmı al
+        const kanal = window.location.pathname.replace('/', '');
+        
+        // Eğer kanal varsa (örnek: /kanal1)
+        if (kanal) {
+            // JSON dosyasını oku
+            fetch('links.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Bu kanal var mı ve açık mı?
+                    if (data[kanal] && data[kanal].acik === true) {
+                        // Açıksa o linke git
+                        window.location.href = data[kanal].url;
+                    } else {
+                        // Kapalıysa hata göster
+                        document.body.innerHTML = `
+                            <h1>❌ ${kanal} KAPALI</h1>
+                            <p>Bu kanal şu anda kapalı.</p>
+                            <p>Açık kanallar:</p>
+                            <ul>
+                                ${Object.keys(data).filter(k => data[k].acik).map(k => 
+                                    `<li>✅ ${k}</li>`
+                                ).join('')}
+                            </ul>
+                        `;
+                    }
+                })
+                .catch(hata => {
+                    document.body.innerHTML = '<h1>❌ HATA!</h1><p>JSON dosyası okunamadı.</p>';
+                });
+        } else {
+            // Ana sayfa (hiçbir kanal seçilmemiş)
+            fetch('links.json')
+                .then(response => response.json())
+                .then(data => {
+                    document.body.innerHTML = `
+                        <h1>📺 M3U Kanalları</h1>
+                        <ul>
+                            ${Object.keys(data).map(k => 
+                                `<li>${k}: ${data[k].acik ? '✅ AÇIK' : '❌ KAPALI'}</li>`
+                            ).join('')}
+                        </ul>
+                        <p>Kullanım: site.com/kanal1</p>
+                    `;
+                });
+        }
+    </script>
+</body>
+</html>
