@@ -1,8 +1,9 @@
 {
+    "enabled": true,
     "title": "Darkneslord",
     "subtitle": "Modded By: Darkneslord",
-    "message": "Reklamsız Kullanıcı Arayüzü.\nProfesyonel tema ui.\nYönetici: @darknes_lord.",
+    "message": "🌟 Reklamsız Kullanıcı Arayüzü\n\n✨ Profesyonel tema ui\n\n📱 Yeni özellikler eklendi\n\n💬 Yönetici: @darknes_lord",
     "button_text": "Telegram",
     "button_url": "https://t.me/darknes_lord",
-    "show_again_days": -1
+    "show_again_days": 1
 }
