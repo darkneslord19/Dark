@@ -1,0 +1,22 @@
+{
+  "kanal1": {
+    "url": "https://darknes_lord.m3u",
+    "acik": true
+  },
+  "kanal2": {
+    "url": "https://gölgeler_lord.m3u",
+    "acik": false
+  },
+  "kanal3": {
+    "url": "https://webhost.m3u",
+    "acik": false
+  },
+  "kanal4": {
+    "url": "https://alternatif1.m3u",
+    "acik": false
+  },
+  "kanal5": {
+    "url": "https://alternatif2.m3u",
+    "acik": false
+  }
+}
