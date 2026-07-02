@@ -1,10 +1,10 @@
 {
-    "enabled": true,
-    "title": "Darkneslord",
-    "version": "2.4.0",
-    "subtitle": "Modded By: Darkneslord",
-    "message": "🔥 Hoş geldiniz!\n\n✨ Profesyonel tema ui\n\n📱 Yeni özellikler eklendi",
-    "button_text": "Güncelle",
-    "update_url": "https://www.google.com",
-    "button_url": "https://t.me/darknes_lord"
+  "enabled": false,
+  "title": "Darkneslord",
+  "version": "2.4.0",
+  "subtitle": "Modded By: Darkneslord",
+  "message": "🔥 Hoş geldiniz!\n\n✨ Profesyonel tema ui\n\n📱 Yeni özellikler eklendi",
+  "button_text": "Güncelle",
+  "update_url": "https://www.google.com",
+  "button_url": "https://t.me/darknes_lord"
 }
