@@ -1,12 +1,13 @@
 {
   "maintenance": false,
   "maintenanceMessage": "Sayfa şu anda bakımda, lütfen daha sonra tekrar deneyin.",
+  "icon": "https://raw.githubusercontent.com/darkneslord19/darkneslord/main/uploads/1783772951363_1000134099.jpg",
+  "telegram": "https://t.me/darknes_lord",
   "users": [
     {
-      "note": "",
-      "code": "45063101",
-      "password": "Dark",
-      "days": 7,
+      "name": "Darknes",
+      "password": "1234",
+      "expires": "2026-07-18",
       "blocked": false
     }
   ]
