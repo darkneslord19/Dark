@@ -8,7 +8,7 @@
       "name": "Darknes",
       "password": "1234",
       "expires": "2026-07-18",
-      "blocked": false
+      "blocked": true
     }
   ]
 }
