@@ -1,0 +1,12 @@
+{
+  "maintenance": false,
+  "maintenanceMessage": "Sayfa şu anda bakımda, lütfen daha sonra tekrar deneyin.",
+  "users": [
+    {
+      "note": "",
+      "code": "29589466",
+      "password": "n3kgus",
+      "blocked": false
+    }
+  ]
+}
