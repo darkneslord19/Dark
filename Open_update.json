@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "title": "SB SAKIB CHOWDHARY",
+  "version": "5.0",
+  "header": "🔥 New Update Available",
+  "description": "Please update to enjoy the latest features and security improvements.",
+  "features": [
+    "Premium UI",
+    "Better Performance",
+    "Bug Fixes",
+    "Security Improvements",
+    "New Features"
+  ],
+  "buttonText": "UPDATE NOW",
+  "backgroundColor": "#1E1E1E",
+  "darkMode": false,
+  "link": "https://your-update-link.com",
+  "showCancelButton": true,
+  "cancelButtonText": "Later",
+  "enableUpdateButton": true,
+  "enableCancelButton": true
+}
