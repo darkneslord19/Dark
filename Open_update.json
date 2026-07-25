@@ -13,9 +13,9 @@
   ],
   "buttonText": "UPDATE NOW",
   "backgroundColor": "#1E1E1E",
-  "darkMode": false,
+  "darkMode": true,
   "link": "https://your-update-link.com",
-  "showCancelButton": true,
+  "showCancelButton": false,
   "cancelButtonText": "Later",
   "enableUpdateButton": true,
   "enableCancelButton": true
