@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "id": "seans-disi",
+      "title": "Seans dışı",
+      "text": "Merhaba, şu an seanstayım. Size en kısa sürede dönüş yapacağım.\n\nDaha hızlı yardımcı olabilmem için lütfen;\n\n• İsminizi\n• Beni ne için aradığınızı (görüşme talebi, bilgi, danışmanlık vb.)\n• Varsa referansınızı (kim/nereden yönlendirme oldu)\n\nmesaj olarak iletir misiniz?"
+    },
+    {
+      "id": "randevu-talebi",
+      "title": "Randevu talebi",
+      "text": "Merhaba, randevu talebiniz için teşekkür ederim. Uygun olduğunuz gün ve saat aralıklarını paylaşırsanız size en kısa sürede uygun bir zaman önerebilirim."
+    },
+    {
+      "id": "yogun-donem",
+      "title": "Yoğun dönem",
+      "text": "Merhaba, şu anda yoğun bir dönemdeyim ve mesajlara biraz gecikmeli dönüş yapabiliyorum. Mesajınızı aldım, en kısa sürede size döneceğim."
+    },
+    {
+      "id": "izin-tatil",
+      "title": "İzindeyim",
+      "text": "Merhaba, şu anda izindeyim ve mesajlara dönüş yapamıyorum. Acil bir durum değilse dönüşümü bekleyebilirsiniz, aksi halde lütfen belirtin."
+    }
+  ]
+}
